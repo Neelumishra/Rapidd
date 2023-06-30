@@ -1,0 +1,51 @@
+.firstHeading{
+font-weight: bolder;
+    color: black;
+    line-height: 24px;
+}
+.secondHeading{
+  color: #003057;
+ font-weight: bolder;
+    font-size: 22px;
+    line-height: 24px;
+}
+.thirdHeading{
+
+}
+
+@media  screen and (min-width:769px) and (max-width:1024px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .maininner{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .mainInnerCss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+}
+@media  screen and (min-width:320) and (max-width:480px){
+      .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .maininner{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .mainInnerCss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+}
